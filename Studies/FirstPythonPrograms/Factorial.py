@@ -11,3 +11,8 @@ try:
 except:
     print('ERRO')
 
+
+lids = [1,34,64,7,9,3,6,82,3]
+lids.sort()
+print(lids)
+
