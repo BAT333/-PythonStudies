@@ -1,6 +1,7 @@
 from Studies.OOP.model.Ball import Ball
 from Studies.OOP.model.Quadrado import Quadrado
 from Studies.OOP.model.Pessoa import Pessoas
+from Studies.OOP.model.TV import TV
 q = Quadrado(5)
 q1 = Quadrado(7)
 q3 = Quadrado(9.4)
@@ -27,5 +28,9 @@ p2 = Pessoas('ARMENIO',49,60,1.75)
 p3 = Pessoas('RIAN',15,60,1.75)
 p4 = Pessoas('RENAN',10,60,1.75)
 Pessoas.list_pessoas()
+print('-------------------------------------------')
+tv = TV(5)
+tv.dimnuir_volume(103)
+print(tv)
 if __name__ == '__main__':
     pass
