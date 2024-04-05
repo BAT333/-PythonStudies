@@ -2,6 +2,7 @@ from Studies.OOP.model.Ball import Ball
 from Studies.OOP.model.Quadrado import Quadrado
 from Studies.OOP.model.Pessoa import Pessoas
 from Studies.OOP.model.TV import TV
+from Studies.OOP.model.Conta import Conta
 q = Quadrado(5)
 q1 = Quadrado(7)
 q3 = Quadrado(9.4)
@@ -32,5 +33,11 @@ print('-------------------------------------------')
 tv = TV(5)
 tv.dimnuir_volume(103)
 print(tv)
+print('-------------------------------------------')
+c = Conta('34234234234324','RAFAEL')
+c.altera_nome('ARMENIO')
+c.depositar_salfo(54)
+c.sacar_saldo(34)
+print(c)
 if __name__ == '__main__':
     pass
